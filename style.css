@@ -58,6 +58,6 @@ button {
   background-color: var(--bg-iten);
   border-radius: 2.4rem;
 }
-button#Rain {
+button#rain {
   background-color: var(--bg-iten2);
 }
