@@ -7,7 +7,8 @@
   font-size: 62.5%;
   --tt-heading: #323238;
   --bg-iten: #E1E1E6;
-  --bg-iten2: #02799D;
+  --bg-iten-hover: #b7b7bb;
+  --bg-iten-select: #02799D;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -52,12 +53,14 @@ button {
   height: 13.8rem;
   width: 15.2rem;
   display: flex;
-  
   padding: 4.7rem;
   margin: 3.2rem;
   background-color: var(--bg-iten);
   border-radius: 2.4rem;
 }
-button#rain {
-  background-color: var(--bg-iten2);
+#climate button:hover {
+  background: var(--bg-iten-hover);
+}
+#climate button.select {
+  background: var(--bg-iten-select);
 }
