@@ -1,3 +1,4 @@
+/* Importando as váriaveis do arquivo elements.js*/
 import {
   buttonForest,
   buttonRain,
@@ -11,7 +12,7 @@ import {
 
 export default function() {
 
-function pressButtonForest() {
+function pressButtonForest() { /* Apertar no ícone e mudar o background e tocar a música no Forest */
   buttonForest.classList.add('select');
   buttonRain.classList.remove('select');
   buttonMarket.classList.remove('select');
@@ -55,7 +56,7 @@ function pressButtonFire(){
   buttonPressForest.pause();
 }
 
-buttonForest.addEventListener('click', function(){ 
+buttonForest.addEventListener('click', function(){  /* Função para executar quando clicado no Forest */
   pressButtonForest();
 })
 
