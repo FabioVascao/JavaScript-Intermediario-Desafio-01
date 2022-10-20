@@ -37,6 +37,6 @@ export {
   buttonStop,
   buttonUp,
   buttonDown,
-  minutesDisplay,
-  secondsDisplay
+  minutes,
+  seconds
 }
