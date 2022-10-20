@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --tt-heading: #323238;
+  --bg-iten: #E1E1E6;
+  --bg-iten2: #02799D;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+main {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  gap: clamp(5rem, 8rem, 19rem);
+  margin: 5rem;
+  max-width: 82rem;
+  max-height: 33rem;
+}
+h1 {
+  font-size: 12.6rem;
+  line-height: 14.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  color:var(--tt-heading);
+  margin-bottom: 1.7rem;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.card {
+  gap: 4rem;
+}
