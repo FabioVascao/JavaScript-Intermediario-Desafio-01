@@ -7,7 +7,7 @@ import {
   buttonPressForest,
   buttonPressRain,
   buttonPressMarket,
-  buttonPressFire
+  buttonPressFire,
 } from "./elements.js"
 
 export default function() {

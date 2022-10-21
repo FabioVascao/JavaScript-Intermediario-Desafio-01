@@ -9,6 +9,7 @@ const buttonPressForest = new Audio("https://github.com/FabioVascao/JavaScript-I
 const buttonPressRain = new Audio('https://github.com/FabioVascao/JavaScript-Intermediario-Desafio-01/blob/main/sounds/Chuva.wav?raw=true')
 const buttonPressMarket = new Audio('https://github.com/FabioVascao/JavaScript-Intermediario-Desafio-01/blob/main/sounds/Cafeteria.wav?raw=true')
 const buttonPressFire = new Audio('https://github.com/FabioVascao/JavaScript-Intermediario-Desafio-01/blob/main/sounds/Lareira.wav?raw=true')
+const timerEnd = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true")
 
 
 /* Variáveis pro Timer */
@@ -33,10 +34,13 @@ export {
   buttonPressRain,
   buttonPressMarket,
   buttonPressFire,
+  timerEnd,
   buttonPlay,
   buttonStop,
   buttonUp,
   buttonDown,
+  minutesDisplay,
+  secondsDisplay,
   minutes,
   seconds
 }
